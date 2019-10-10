@@ -1,0 +1,8 @@
+#set("title") { Translate Kotlin }
+
+#set("body") {
+<h1>Results:</h1>
+<pre><code>#(output)</code></pre>
+}
+
+#embed("base")

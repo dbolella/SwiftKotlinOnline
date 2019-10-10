@@ -1,0 +1,39 @@
+#set("title") { Translate Kotlin }
+
+#set("body") {
+<textarea id="constantsText" rows="4" cols="50">
+Please put swift code here...
+</textarea>
+<button onclick="post()">Click me</button>
+
+<script>
+function post() {
+var method = "post"; // Set method to post by default if not specified.
+var path = "/translate/"
+var params = {swift: document.getElementById("constantsText").value\}
+
+
+var form = document.createElement("form");
+form.setAttribute("method", method);
+form.setAttribute("action", path);
+
+for(var key in params) {
+if(params.hasOwnProperty(key)) {
+var hiddenField = document.createElement("input")
+hiddenField.setAttribute("type", "hidden")
+hiddenField.setAttribute("name", key)
+hiddenField.setAttribute("value", params[key])
+
+form.appendChild(hiddenField)
+\}
+\}
+
+document.body.appendChild(form)
+form.submit()
+\}
+
+
+</script>
+}
+
+#embed("base")

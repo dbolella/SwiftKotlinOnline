@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "bocho",
+        "repositoryURL": "https://github.com/yanagiba/bocho",
+        "state": {
+          "branch": null,
+          "revision": "11a60ae8509658ea38bbe166d9c4e9af4d411700",
+          "version": "0.18.10"
+        }
+      },
+      {
         "package": "Console",
         "repositoryURL": "https://github.com/vapor/console.git",
         "state": {
@@ -83,6 +92,15 @@
         }
       },
       {
+        "package": "swift-ast",
+        "repositoryURL": "https://github.com/yanagiba/swift-ast",
+        "state": {
+          "branch": null,
+          "revision": "295998ce223da98cab6b7189db22f0be3dfc0eb7",
+          "version": "0.18.10"
+        }
+      },
+      {
         "package": "swift-nio",
         "repositoryURL": "https://github.com/apple/swift-nio.git",
         "state": {
@@ -116,6 +134,24 @@
           "branch": null,
           "revision": "37760e9a52030bb9011972c5213c3350fa9d41fd",
           "version": "1.0.0"
+        }
+      },
+      {
+        "package": "swift-transform",
+        "repositoryURL": "https://github.com/yanagiba/swift-transform",
+        "state": {
+          "branch": null,
+          "revision": "45464c7747d97f320ca153b713affede11ce3bf4",
+          "version": "0.18.10"
+        }
+      },
+      {
+        "package": "SwiftKotlinFramework",
+        "repositoryURL": "https://github.com/angelolloqui/SwiftKotlin.git",
+        "state": {
+          "branch": null,
+          "revision": "e993ad55276531e5f723b0ede47d0619ea734dcf",
+          "version": null
         }
       },
       {
